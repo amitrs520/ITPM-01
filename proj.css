@@ -1,0 +1,74 @@
+.block{
+	background-color:black;
+	color:red;
+	padding: 20px;
+}
+div.ex1 {
+    background-color: lightblue;
+    width: 1350px;
+    height: 325px;
+    overflow: hidden;
+}
+div.relative {
+    position: visible;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+.pic1{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-right: 20px;
+}
+.pic2{
+	float: auto;
+	width: 400px;
+	height: 300px;
+	margin-right: 20px;
+}
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+h1{
+	font-style: bold;
+   	font-size: 50px;
+   	color: brown;
+}
+.gallery{
+	float: left; 
+	font-size: 16pt; 
+	text-align: center; 
+	width: 30%; 
+	margin-right: 1%; 
+	margin-bottom: 0.5em;
+	color: red;
+}
+.pic3{
+	width: 99%
+}
